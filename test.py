@@ -1,3 +1,8 @@
+"""
+CPSC-481 : AI - Final Project
+Team Members: Pranav Dilip Borole (CWID: 887465383)
+              Shaunak Narendra Deshpande (CWID: 887460368)
+"""
 
 import tensorflow as tf
 import cv2
@@ -12,8 +17,8 @@ print(sess)
 
 model = load_model('model.hdf5')
 
-TRAIN_DIR = 'images/train/'
-TEST_DIR = 'images/test/'
+TRAIN_DIR = '../images/train/'
+TEST_DIR = '../images/test/'
 
 animalss = os.listdir(TRAIN_DIR)
 print(animalss)
